@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #FFF7D5;
+    z-index: -1;
+}
+.barra-pesquisa{
+    background-color: #FFE373;
+    display: inline-block;
+    height: 100px;
+    width: 199.4vh;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: rgba(22, 22, 22, 0.8);
+}
+li{
+     list-style-type: none;
+}
+#buscar-cor{
+    background-color: #FFF7D5;
+    height: 40px;
+    width: 100vh;
+    border-radius: 100px;
+    color: #383838;
+    display: flex;
+    margin-left: 30vh;
+    margin-top: 10px;
+
+}
+#move{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.barra-pesquisa1{
+    background-color: #5D9EFF;
+    display: inline-block;
+    height: 100px;
+    width: 199.4vh;
+    margin-bottom: 10px;
+    z-index: 1;
+}
