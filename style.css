@@ -64,6 +64,38 @@ li{
     display: block;
     height: 70px;
     width: 199.4vh;
-    
     z-index: 2;
+}
+.imagem-lupa{
+display: inline-flex;
+margin-left: 74vh;
+margin-top: 5px;
+height: 30px;
+}
+#fonte{
+    font-size: 16px;
+    color: black;
+    display: inline-block;
+    margin-block-start: 20px;
+    margin-left: 10px;
+}
+.tamanho-sessao{
+    display: inline-block;
+    margin-block-start: 70px;
+    margin-left: 90px;
+    background-color: white;
+    height: 287px;
+    width: 1734px; 
+    border-radius:16px;
+}
+.text-size{
+    font-size: 35px;
+}
+.botao{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    width: 53px ;
+    height: 500px;
+    border-radius: 10px;
 }
