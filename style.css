@@ -55,8 +55,11 @@ li{
     z-index: 2;
 }
 .posiçao{
-    display: inline-flex;
-    margin-left: 135vh;
+    width: 2000px;
+    height: 18px;
+    display: grid;
+    grid-template-columns: 7% 4% 4% 4% 4% 10% 10% 10% 10% 2% 7% 4% 4% 4%;
+    grid-template-rows: 20% 20% 20%;
     font-size: 14px;
 }
 .barra-pesquisa2{
@@ -66,26 +69,28 @@ li{
     width: 199.4vh;
     z-index: 2;
 }
-.imagem-lupa{
-display: inline-flex;
-margin-left: 74vh;
-margin-top: 5px;
-height: 30px;
+    .imagem-lupa{
+    display: inline-flex;
+    margin-left: 74vh;
+    margin-top: 5px;
+    height: 30px;
 }
 #fonte{
     font-size: 16px;
     color: black;
     display: inline-block;
     margin-block-start: 20px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .tamanho-sessao{
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 70% 20% 10%;
+    grid-template-rows: 40% 40% 20%;
     margin-block-start: 70px;
-    margin-left: 90px;
+    margin-left: 240px;
     background-color: white;
     height: 287px;
-    width: 1734px; 
+    width: 1348px; 
     border-radius:16px;
 }
 .text-size{
@@ -98,4 +103,48 @@ height: 30px;
     width: 53px ;
     height: 500px;
     border-radius: 10px;
+}
+.pose1{
+    grid-column-start: 11;
+}
+.alinhamento{
+    display: grid;
+    grid-template-columns: 12% 12% 12% 10% 10% 10% 10% 10%;
+
+}
+.pose2{grid-column-start: 3;}
+
+.tamanho1{
+    grid-column-start: 2;
+    background-color: white;
+    width: 382.7px;
+    height: 392.67px;
+    border-radius: 16px;
+}
+#fonte2{
+    margin-left: 20px;
+    font-size: 26px;
+}
+.imagens-menu{
+    margin-block-start: 110px;
+    display: grid;
+    grid-template-columns: 10% 27% 27% 27%;
+}
+.tamanho2{
+    background-color: white;
+    width: 382.7px;
+    height: 392.67px;
+    border-radius: 16px;
+}
+.tamanho3{
+    background-color: white;
+    width: 382.7px;
+    height: 392.67px;
+    border-radius: 16px;
+}
+#pose3{
+    margin-block-start: 10px;
+}
+#pose4{
+    margin-block-start: 10px;
 }
