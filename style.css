@@ -41,6 +41,7 @@ li{
     margin-top: 10px;
 
 }
+
 #move{
     display: flex;
     margin-left: 30px;
@@ -106,16 +107,20 @@ li{
 }
 .pose1{
     grid-column-start: 11;
+    grid-column-end: 11;
 }
 .alinhamento{
     display: grid;
     grid-template-columns: 12% 12% 12% 10% 10% 10% 10% 10%;
 
 }
-.pose2{grid-column-start: 3;}
+.pose2{grid-column-start: 3;
+    grid-column-end: 3;    
+}
 
 .tamanho1{
     grid-column-start: 2;
+    grid-column-end: 2;
     background-color: white;
     width: 382.7px;
     height: 392.67px;
@@ -147,4 +152,20 @@ li{
 }
 #pose4{
     margin-block-start: 10px;
+}
+.detalhes{
+    background-color: #e4d493;
+    width: auto;
+    height: 400px;
+    margin-block-start: 100px;
+    display: grid;
+    grid-template-columns: 20% 27% 37% 37%;
+    grid-template-rows: 37%;
+    
+}
+.cores{
+    font-size: 24px;
+}
+#pose5{
+    grid-column-start: 2;
 }

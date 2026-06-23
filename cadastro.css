@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Determination';
+    src: url('fonts/DeterminationMono.woff2') format('woff2'),
+     url('fonts/DeterminationMono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; 
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFF7D5;
+    font-family: 'Determination', 'Courier New', monospace;
+
+}
+.barra-pesquisa{
+    background-color: #FFE373;
+    display: inline-block;
+    height: 70px;
+    width: 199.4vh;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+li{
+     list-style-type: none;
+}
+#buscar-cor{
+    background-color: #FFF7D5;
+    height: 40px;
+    width: 100vh;
+    border-radius: 100px;
+    color: #383838;
+    display: flex;
+    margin-left: 30vh;
+    margin-top: 10px;
+
+}
+#move{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.barra-pesquisa1{
+    background-color: #5D9EFF;
+    display: block;
+    height: 20px;
+    width: 199.4vh;
+    margin-top: 2px;
+    z-index: 2;
+}
+.posiçao{
+    width: 2000px;
+    height: 18px;
+    display: grid;
+    grid-template-columns: 7% 4% 4% 4% 4% 10% 10% 10% 10% 2% 7% 4% 4% 4%;
+    grid-template-rows: 20% 20% 20%;
+    font-size: 14px;
+}
+.barra-pesquisa2{
+    background-color: #fc943c;
+    display: block;
+    height: 70px;
+    width: 199.4vh;
+    z-index: 2;
+}
+    .imagem-lupa{
+    display: inline-flex;
+    margin-left: 74vh;
+    margin-top: 5px;
+    height: 30px;
+}
+#fonte{
+    font-size: 16px;
+    color: black;
+    display: inline-block;
+    margin-block-start: 20px;
+    margin-left: 30px;
+}
+.pose1{
+    grid-column-start: 11;
+    grid-column-end: 11;
+}
+.alinhamento{
+    display: grid;
+    grid-template-columns: 12% 12% 12% 10% 10% 10% 10% 10%;
+
+}
+.pose2{grid-column-start: 3;
+    grid-column-end: 3;    
+}
+.tamanho-sessao{
+    display: grid;
+    grid-template-columns: 40% 37% 10%;
+    grid-template-rows: 40% 40% 20%;
+    margin-block-start: 70px;
+    margin-left: 240px;
+    background-color: white;
+    height: 287px;
+    width: 1348px; 
+    border-radius:16px;
+}
+.text-size{
+    font-size: 35px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.forma{
+    font-size: 20px;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    text-align: center;
+    margin-left: -33vh;
+    margin-top: -4vh;
+}
+.formulario{
+    background-color: white;
+    width: 723px;
+    height: 775px;
+    margin-left: 57vh;
+    margin-top: -17vh;
+    border-radius: 7px;
+}
+ form{
+    max-width: 200px;
+    margin: 0 auto;
+ }
+ label {
+    margin-top: 20vh;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
