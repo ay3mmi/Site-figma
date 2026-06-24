@@ -19,6 +19,8 @@ body{
 .barra-pesquisa{
     background-color: #FFE373;
     display: inline-block;
+    position: sticky;
+    top: 0;
     height: 70px;
     width: 199.4vh;
     margin-bottom: 10px;
@@ -158,14 +160,16 @@ li{
     width: auto;
     height: 400px;
     margin-block-start: 100px;
-    display: grid;
-    grid-template-columns: 20% 27% 37% 37%;
-    grid-template-rows: 37%;
     
 }
 .cores{
+    position: relative;
     font-size: 24px;
+    margin-top: -6vh;
+    left: 25vh;
+    
 }
-#pose5{
-    grid-column-start: 2;
+.pose5{ 
+    display: inline-flex;
+    margin-top: 10vh;
 }

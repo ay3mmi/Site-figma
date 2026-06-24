@@ -20,6 +20,8 @@ body{
     background-color: #FFE373;
     display: inline-block;
     height: 70px;
+    position: sticky;
+    top: 0;
     width: 199.4vh;
     margin-bottom: 10px;
 }

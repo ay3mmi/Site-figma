@@ -20,6 +20,8 @@ body{
     background-color: #FFE373;
     display: inline-block;
     height: 70px;
+    position: sticky;
+    top: 0;
     width: 199.4vh;
     margin-bottom: 10px;
 }
@@ -93,4 +95,81 @@ li{
 }
 .pose2{grid-column-start: 3;
     grid-column-end: 3;    
+}
+button {
+  background-color: #ffffff;
+  border: 1px solid #ff7700de;
+  color: black;
+  padding: 12px 35px;
+  margin-left: 23vh;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Determination', 'Courier New', monospace;
+}
+.diferente {
+  background-color: #FFB97C;
+  border: 1px solid #ff7700de;
+  color: black;
+  padding: 12px 35px;
+  margin-left: 23vh;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Determination', 'Courier New', monospace;
+}
+.barra{
+    display: inline-flex;
+    margin-top: 8vh;
+    margin-left: -18vh;
+}
+button:hover {
+  background-color: #FFB97C;
+  
+}
+.diferente:hover {
+  background-color: #ffffff;
+}
+.menu{
+   background-color: #ffffff;
+   display: block;
+   width: 299px;
+   height: 845px;
+   margin-left: 4.9vh;
+   margin-top: 3vh;
+}
+.preco{
+    background-color: #FFB97C;
+  border: 1px solid #ff7700de;
+  color: black;
+  margin-left: -0.1vh;
+  padding: 6px 19px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Determination', 'Courier New', monospace;
+
+}
+
+
+.checkbox-container label{
+    display: block;
+  cursor: pointer;
+}
+.lado{
+    margin-left: 2vh;
+}
+.filtros{
+    background-color: #FFB97C;
+  border: 1px solid #ff7700de;
+  color: black;
+  margin-left: -0.1vh;
+  margin-top: 4vh;
+  padding: 12px 19px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Determination', 'Courier New', monospace;
+}
+.espaco2{
+    margin-top: 3vh;
+}
+.espaco3{
+    margin-top: 3vh;
 }
