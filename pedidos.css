@@ -96,3 +96,271 @@ li{
 .pose2{grid-column-start: 3;
     grid-column-end: 3;    
 }
+.butn{
+  background-color: #FFB97C;
+  border: 1px solid #ff7700de;
+  color: black;
+   margin-left: 60vh; 
+   margin-top: -5vh;
+  border-radius: 17px;
+  width: 155px;
+  height: 49px;
+  cursor: pointer;
+  font-family: 'Determination', 'Courier New', monospace;
+
+
+    }
+button {
+  background-color: #ffffff;
+  border: 1px solid #ff7700de;
+  color: black;
+   margin-left: 1vh; 
+  border-radius: 17px;
+  width: 110px;
+  height: 35px;
+  cursor: pointer;
+  font-family: 'Determination', 'Courier New', monospace;
+}
+.diferente {
+  background-color: #FFB97C;
+  border: 1px solid #ff7700de;
+  color: black;
+  padding: 12px 15px;
+  margin-left: 20vh;
+  border-radius: 17px;
+  cursor: pointer;
+  font-family: 'Determination', 'Courier New', monospace;
+}
+.barra{
+    display: inline-flex;
+    margin-top: 8vh;
+    margin-left: -18vh;
+}
+button:hover {
+  background-color: #FFB97C;
+  
+}
+.diferente:hover {
+  background-color: #ffffff;
+}
+.barra-busc{
+    background-color: #ffffff;
+    width: 530px;
+    height: 49px;
+    border-radius: 15px;
+    border: 1px solid #ff7700de;
+}
+.pedidos{
+    margin-top: 10vh;
+    padding: 20px;
+}
+.numero{
+    color: #BAB8B8;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.numeros-pedido1{
+    background-color: #ffffff;
+    border: 1px solid #ff7700de;
+    border-radius: 7px;
+    width: 705px;
+    height: 398px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 5%5 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 18% 10% 15% 15% 15% 15% 10%;
+}
+.linha{
+    background-color: #D9D9D9;
+    width: 703px;
+    height: 1px;
+    grid-row-start: 2;
+}
+.format{
+    margin-left: 90px;
+    margin-top: 10px;
+    grid-column-start: 1;
+}
+.linha2{
+    background-color: #FFB97C;
+    width: 631px;
+    height: 4px;
+    margin-left: 33px;
+    grid-row-start: 3;
+}
+.produto1{
+    width: 632px;
+    height: 46px;
+    border-radius: 7px;
+    border: 1px solid #FFB97C;
+    background-color: #ffffff;
+    grid-row-start: 4;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 4% 4% 20% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 100%;
+}
+.im1{
+    grid-column-start: 2;
+}
+.f1{
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.quantidade1{
+    grid-column-start: 3;
+    margin-top: -2vh;
+    color: #BAB8B8;
+    font-size: 10px;
+}
+.valor1{
+    grid-column-start: 9;
+    color: #fc943c;
+    font-size: 11px;
+    margin-top: -3vh;
+}
+.produto2{
+    width: 632px;
+    height: 46px;
+    border-radius: 7px;
+    border: 1px solid #FFB97C;
+    background-color: #ffffff;
+    grid-row-start: 6;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 4% 4% 20% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 100%;
+}
+.im2{
+    grid-column-start: 2;
+}
+.f2{
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.quantidade2{
+    grid-column-start: 3;
+    margin-top: -2vh;
+    color: #BAB8B8;
+    font-size: 10px;
+}
+.valor2{
+    grid-column-start: 9;
+    color: #fc943c;
+    font-size: 11px;
+    margin-top: -3vh;
+}
+.dif {
+  background-color: #FFB97C;
+  border: 1px solid #ff7700de;
+  color: black;
+  padding: 12px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: 'Determination', 'Courier New', monospace;
+}
+.al{
+    grid-column-start: 1;
+    grid-row-start: 7;
+    display: flex;
+}
+.amarelo{
+    background-color: #FFE373;
+  border: 1px solid #FFCC00;
+}
+#ta{
+    width: 139px;
+    height: 28px;
+    border-radius: 15px;
+}
+.numeros-pedido2{
+    background-color: #ffffff;
+    border: 1px solid #ff7700de;
+    border-radius: 7px;
+    width: 705px;
+    height: 398px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 5%5 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 18% 10% 15% 15% 15% 15% 10%;
+}
+
+.produto3{
+    width: 632px;
+    height: 46px;
+    border-radius: 7px;
+    border: 1px solid #FFB97C;
+    background-color: #ffffff;
+    grid-row-start: 4;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 4% 4% 20% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 100%;
+}
+.im3{
+    margin-top: 8px;
+    margin-left: -7px;
+    grid-column-start: 2;
+}
+.f3{
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.quantidade3{
+    grid-column-start: 3;
+    margin-top: -1vh;
+    color: #BAB8B8;
+    font-size: 10px;
+}
+.valor3{
+    grid-column-start: 9;
+    color: #fc943c;
+    font-size: 11px;
+    margin-top: -3vh;
+}
+.produto4{
+    width: 632px;
+    height: 46px;
+    border-radius: 7px;
+    border: 1px solid #FFB97C;
+    background-color: #ffffff;
+    grid-row-start: 6;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 4% 4% 20% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 100%;
+}
+.im4{
+    margin-left: -8px;
+    margin-top: 7px;
+    width: 34px;
+    height: 29px;
+    grid-column-start: 2;
+}
+.f4{
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.quantidade4{
+    grid-column-start: 3;
+    margin-top: -1vh;
+    color: #BAB8B8;
+    font-size: 10px;
+}
+.valor4{
+    grid-column-start: 9;
+    color: #fc943c;
+    font-size: 11px;
+    margin-top: -3vh;
+}
+.resumo-conta{
+    width: 354px;
+    height: 325px;
+    background-color: #ffffff;
+    border: 1px solid #ff7700de;
+    border-radius: 7px;
+    margin-left: 160vh;
+    margin-top: -95vh;
+    padding: 10px;
+}
